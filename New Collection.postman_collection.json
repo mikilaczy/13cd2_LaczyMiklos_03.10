@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "9b22e529-d883-448a-9a54-1fa0d4d12635",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41571362"
+	},
+	"item": [
+		{
+			"name": "elozetes",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "elozetes-lekerdezes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/elozetes-rangsor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"elozetes-rangsor"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "3571"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"df3-Orj/pKqnqvhieCK9YPx1g+6Xw7g\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Mar 2025 13:30:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Tanuló neve\": \"Antal Olivér\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 145\n    },\n    {\n        \"Tanuló neve\": \"Antal Vilmos\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 123\n    },\n    {\n        \"Tanuló neve\": \"Bakos Tivadar\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 107\n    },\n    {\n        \"Tanuló neve\": \"Balog Klaudia\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 134\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Krisztián\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 200\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Réka\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 168\n    },\n    {\n        \"Tanuló neve\": \"Bognár Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 122\n    },\n    {\n        \"Tanuló neve\": \"Borbély Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 121\n    },\n    {\n        \"Tanuló neve\": \"Dobos Zita\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 171\n    },\n    {\n        \"Tanuló neve\": \"Faragó Renátó\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 144\n    },\n    {\n        \"Tanuló neve\": \"Faragó Zsigmond\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 164\n    },\n    {\n        \"Tanuló neve\": \"Fodor Nándor\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 141\n    },\n    {\n        \"Tanuló neve\": \"Fodor Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 150\n    },\n    {\n        \"Tanuló neve\": \"Halász Martin\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 143\n    },\n    {\n        \"Tanuló neve\": \"Hegedüs Mária\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 190\n    },\n    {\n        \"Tanuló neve\": \"Horváth Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 148\n    },\n    {\n        \"Tanuló neve\": \"Katona Virág\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 121\n    },\n    {\n        \"Tanuló neve\": \"Kelemen Zsófia\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 143\n    },\n    {\n        \"Tanuló neve\": \"Király Réka\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 124\n    },\n    {\n        \"Tanuló neve\": \"Király Szabolcs\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 169\n    },\n    {\n        \"Tanuló neve\": \"Kiss Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 159\n    },\n    {\n        \"Tanuló neve\": \"Kocsis Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 140\n    },\n    {\n        \"Tanuló neve\": \"Magyar Lóránt\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 172\n    },\n    {\n        \"Tanuló neve\": \"Major Szabolcs\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 135\n    },\n    {\n        \"Tanuló neve\": \"Major Veronika\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 159\n    },\n    {\n        \"Tanuló neve\": \"Máté Zoltán\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 180\n    },\n    {\n        \"Tanuló neve\": \"Mészáros Olga\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 176\n    },\n    {\n        \"Tanuló neve\": \"Mészáros Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 158\n    },\n    {\n        \"Tanuló neve\": \"Nagy Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 111\n    },\n    {\n        \"Tanuló neve\": \"Nagy Vince\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 128\n    },\n    {\n        \"Tanuló neve\": \"Nemes Martin\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 137\n    },\n    {\n        \"Tanuló neve\": \"Németh Roland\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 106\n    },\n    {\n        \"Tanuló neve\": \"Orbán Terézia\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 121\n    },\n    {\n        \"Tanuló neve\": \"Orosz Zalán\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 126\n    },\n    {\n        \"Tanuló neve\": \"Pál Mariann\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 120\n    },\n    {\n        \"Tanuló neve\": \"Pap Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 166\n    },\n    {\n        \"Tanuló neve\": \"Péter Marcell\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 129\n    },\n    {\n        \"Tanuló neve\": \"Puskás Lili\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 143\n    },\n    {\n        \"Tanuló neve\": \"Sándor Mónika\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 116\n    },\n    {\n        \"Tanuló neve\": \"Simon Tünde\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 149\n    },\n    {\n        \"Tanuló neve\": \"Sipos Pál\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 131\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Richárd\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 180\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Zsuzsanna\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 189\n    },\n    {\n        \"Tanuló neve\": \"Tóth Mátyás\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 122\n    },\n    {\n        \"Tanuló neve\": \"Török Réka\",\n        \"Ágazat\": \"elektronika\",\n        \"osszpont\": 127\n    },\n    {\n        \"Tanuló neve\": \"Váradi Rudolf\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 175\n    },\n    {\n        \"Tanuló neve\": \"Veres Rozália\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 131\n    },\n    {\n        \"Tanuló neve\": \"Veres Zsolt\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 120\n    },\n    {\n        \"Tanuló neve\": \"Vincze Márta\",\n        \"Ágazat\": \"informatika\",\n        \"osszpont\": 140\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "agazat",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "agazat",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/agazatok",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"agazatok"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "51"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"33-oKfPPy/RRXgd1FhN7mQip2yC+aY\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Mar 2025 13:41:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"agazat\": \"elektronika\"\n    },\n    {\n        \"agazat\": \"informatika\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
